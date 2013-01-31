@@ -73,7 +73,7 @@
       function(){
         $this.status.data("growlhover", false);
         if($this.settings.timeout!==false){
-          window.setTimeout(function(){$this.status.cancel();}, $this.settings.timeout);
+          window.setTimeout(function(){$this.cancel();}, $this.settings.timeout);
         }
       }
     )      
